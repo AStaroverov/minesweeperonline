@@ -1,0 +1,46 @@
+{
+  "name": "Renderer",
+  "version": "0.0.1",
+  "description": "my own Renderer",
+  "scripts": {
+    "build": "webpack",
+    "build_min": "NODE_ENV=production webpack -p",
+    "server": "webpack-dev-server --open --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AStaroverov/AStaroverov.github.io.git"
+  },
+  "author": "AStaroverov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AStaroverov/AStaroverov.github.io/issues"
+  },
+  "homepage": "https://github.com/AStaroverov/AStaroverov.github.io#readme",
+  "dependencies": {
+    "@types/gl-matrix": "^3.2.0",
+    "eventemitter3": "^4.0.7",
+    "gl-matrix": "^3.3.0",
+    "rbush": "^3.0.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "@types/eventemitter3": "^2.0.2",
+    "@types/node": "^14.6.4",
+    "@types/rbush": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "eslint": "^7.8.1",
+    "eslint-config-standard-with-typescript": "^19.0.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "html-webpack-plugin": "^4.4.1",
+    "mobx": "^6.0.1",
+    "mobx-utils": "^6.0.1"
+  }
+}

@@ -17,6 +17,5 @@
     ],
     "skipLibCheck": true,
     "removeComments": false
-  },
-  "exclude": ["./lib"]
+  }
 }

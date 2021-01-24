@@ -28,7 +28,7 @@ export function createField(cols: number, rows: number, bombsCount: number): Fie
                 .map(() => createCell(0))
         );
     const existedBombCoords = new Set<number>();
-    const bombsCoords = [];
+    const bombsCoords: { x: number; y: number }[] = [];
     
     while (bombsCount--) {
         let c: number = 0;
